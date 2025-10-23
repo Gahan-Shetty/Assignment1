@@ -1,0 +1,191 @@
+/* ===== Global Styles ===== */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #1cd4f1;
+  color: white;
+  padding: 15px 0;
+  z-index: 1000;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ff9800;
+}
+
+main {
+  margin-top: 80px;
+  padding: 40px;
+}
+
+/* ===== Home Page ===== */
+.home-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.intro-text {
+  flex: 2;
+}
+
+.intro-image {
+  flex: 1;
+}
+
+.intro-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.btn {
+  background-color: #ff9800;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #e68900;
+}
+
+/* ===== About Page ===== */
+.about-section {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.about-image {
+  position: relative;
+}
+
+.about-image img {
+  width: 250px;
+  border-radius: 10px;
+}
+
+.decorative-dot {
+  width: 15px;
+  height: 15px;
+  background: #ff9800;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+
+.skills {
+  margin-top: 60px;
+}
+
+.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.skill-tile {
+  background-color: white;
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* ===== Projects Page ===== */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.project-card {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.project-card:hover {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  transform: translateY(-5px);
+}
+
+/* ===== Achievements Page ===== */
+.achievement-card {
+  display: flex;
+  background-color: white;
+  border: 1px solid #ddd;
+  margin-bottom: 30px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.color-band {
+  width: 10px;
+  background-color: #ff9800;
+}
+
+.achievement-content {
+  padding: 20px;
+}
+
+/* ===== Contact Page ===== */
+.contact-form {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+  gap: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.social-links {
+  text-align: center;
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+}
+
+.btn:hover {
+  background-color: #e68900;
+}
